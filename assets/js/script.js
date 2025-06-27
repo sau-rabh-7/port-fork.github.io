@@ -1,11 +1,17 @@
 'use strict';
-
+import Silk from './Silk';
 
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
-
+<Silk
+  speed={5}
+  scale={1}
+  color="#7B7481"
+  noiseIntensity={1.5}
+  rotation={0}
+/>
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
